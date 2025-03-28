@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/functions/(.*)",
-        "destination": "https://yeicryumedrvfqhfnspd.supabase.co/functions/$1"
+        "source": "/:function",  // matches /esim_enabled_devices
+        "destination": "https://yeicryumedrvfqhfnspd.supabase.co/functions/v1/:function"
       }
     ]
   }
