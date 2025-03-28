@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/functions/(.*)",
+        "destination": "https://yeicryumedrvfqhfnspd.supabase.co/functions/$1"
+      }
+    ]
+  }
+  
